@@ -11,4 +11,4 @@ VALUES ('Fisica');
 INSERT INTO `materias` (`materia`)
 VALUES ('Quimica');
 
-SELECT * FROM materias
+SELECT * FROM `materias`
