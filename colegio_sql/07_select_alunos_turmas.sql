@@ -5,4 +5,4 @@ INNER JOIN `matriculas` AS `m`
 INNER JOIN `turmas` AS `t`
 	ON `t`.`idturmas` = `m`.`turmas_idturmas`
 GROUP BY `nome`
-ORDER BY `idturmas`, `idalunos`
+ORDER BY `idturmas`, `idalunos`;
